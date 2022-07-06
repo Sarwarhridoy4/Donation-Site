@@ -112,15 +112,23 @@ body {
   display: block;
   margin: 0 auto;
   padding: 15px 60px;
-  background-image: linear-gradient(to right, rgb(49, 92, 233), rgb(23, 193, 245));
+  background-image: linear-gradient(
+    to right,
+    rgb(49, 92, 233),
+    rgb(23, 193, 245)
+  );
   border: none;
   border-radius: 10px;
   font-size: 25px;
   color: #ffffff;
 }
 
-.btn:hover{
-  background-image: linear-gradient(to right, rgb(24, 133, 30), rgb(23, 193, 245));
+.btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(24, 133, 30),
+    rgb(23, 193, 245)
+  );
   transition: 5ms;
 }
 /* #intut :focus{
@@ -132,7 +140,7 @@ body {
 
 } */
 
-.donate-plan{
+.donate-plan {
   padding-top: 100px;
   height: auto;
   width: 80%;
@@ -140,51 +148,100 @@ body {
   background: rgba(255, 255, 255, 0);
 }
 
-.donate-plan h1{
+.donate-plan h1 {
   font-size: 40px;
   text-align: center;
   padding-bottom: 20px;
 }
-.donate-plan p{
+.donate-plan p {
   text-align: justify;
   margin-top: 10px;
   padding: 30px;
-  
 }
-.card-1{
+.card-1 {
   width: 100%;
   background: rgba(240, 0, 0, 0.185);
   margin-right: 5%;
 }
-.card-1 img{
+.card-1 img {
   margin-left: 45%;
   margin-top: 5%;
 }
-.card-2{
+.card-2 {
   width: 100%;
   background: rgba(3, 110, 12, 0.411);
   margin-right: 5%;
 }
-.card-2 img{
+.card-2 img {
   margin-left: 45%;
   margin-top: 5%;
 }
-.card-3{
+.card-3 {
   width: 100%;
   background: rgba(3, 97, 110, 0.411);
   margin-right: 5%;
 }
-.card-3 img{
+.card-3 img {
   margin-left: 45%;
   margin-top: 5%;
 }
-.card-1 h2{
+.card-1 h2 {
   text-align: center;
 }
-.card-2 h2{
+.card-2 h2 {
   text-align: center;
 }
-.card-3 h2{
+.card-3 h2 {
   text-align: center;
 }
 
+.article-1 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 10px;
+}
+
+.text-area {
+  width: 50%;
+  margin-top: 20px;
+}
+.text-area h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.text-area p {
+  margin-bottom: 25px;
+}
+
+.image-area {
+  width: 50%;
+}
+.image-area img {
+  width: 80%;
+  margin-left: 40px;
+  border: 5px solid rgb(15, 224, 120);
+  border-radius: 5%;
+}
+
+.article-2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding-right: 20px;
+  padding-top: 50px
+}
+
+.btn-how-to {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(49, 92, 233),
+    rgb(23, 193, 245)
+  );
+  color: #ffffff;
+  font-size: 35px;
+  cursor: pointer;
+}
