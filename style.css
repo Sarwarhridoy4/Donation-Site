@@ -229,7 +229,7 @@ body {
   margin: 0 auto;
   display: flex;
   padding-right: 20px;
-  padding-top: 50px
+  padding-top: 50px;
 }
 
 .btn-how-to {
@@ -244,4 +244,50 @@ body {
   color: #ffffff;
   font-size: 35px;
   cursor: pointer;
+}
+
+.get-my-updates {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.stuff {
+  width: 80%;
+  margin: 0 auto;
+}
+.stuff h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.stuff p {
+  text-align: center;
+}
+.box {
+  height: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  background: rgba(255, 238, 0, 0.377);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.box input{
+  padding: 20px 100px;background: rgb(235, 235, 235);
+  border: none;
+  border-radius: 10px;
+
+}
+.box button{
+  cursor: pointer;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.box button:hover{
+  background: rgb(255, 136, 0);
+  color: #ffffff;
+  transition: 0.5s;
 }
